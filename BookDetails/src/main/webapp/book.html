@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert Product</title>
+<!-- Latest compiled and minified CSS -->
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+	rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="container-fluid">
+	<div class="card">
+		<form action="add" method="post">
+			<h2 class="bg-danger text-light card-header ">Add Books</h2>
+			<table class="table table-hover table-striped">
+				<tr>
+					<td>BookCode</td>
+					<td><input type="text" name="bcode"></td>
+				</tr>
+				<tr>
+					<td>BookName</td>
+					<td><input type="text" name="bname"></td>
+				</tr>
+				<tr>
+					<td>BookAuthor</td>
+					<td><input type="text" name="bauth"></td>
+				</tr>
+				<tr>
+					<td>BookPrice</td>
+					<td><input type="text" name="brate"></td>
+				</tr>
+				<tr>
+					<td>BookQuantity</td>
+					<td><input type="text" name="bqty"></td>
+				</tr>
+				<tr>
+					<td><button type="submit" class="btn  btn-success">Submit</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+
+
+</body>
+</html>
